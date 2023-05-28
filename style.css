@@ -36,6 +36,34 @@ body {
     letter-spacing:5px;
     text-transform: uppercase;
 }
+ul {
+    list-style-type: none;
+    float: right;
+    
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+
+}
+ul li a {
+    
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
 .food-items{
     display: grid;
     position: relative;
